@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.0.1/js/anychart-pie.min.js"></script>
+   </head>
+   <body>
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#">CAP</a>
+        </div>
+        <ul>
+          <li><a href="Homepage.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Dashboard.html">Dashboard</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Loginpage.html">Logout</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="title">
+      
+      <p><h1">Dashboard for Visualization</h1></p>
+      
+    </div>
+    <br>
+    <br><br>
+    <table cellspacing="20" >
+        <tr>
+            <td><img src="https://media.licdn.com/dms/image/C5603AQFTEV2zec-kWw/profile-displayphoto-shrink_800_800/0/1530318124844?e=1675900800&v=beta&t=O7PiApPqrJrPkSLMLSslzUhxZ0Fz3nkKKgeRGSjU2tA" alt="BhaveshProfile" height="150" width="150"></td>
+            <td><a href="https://au.linkedin.com/in/bhavesh-boodnee-ab17a3a7?original_referer=https%3A%2F%2Fwww.google.com%2F"> <strong>Bhavesh Boodnee </strong> </a><br>Master of Networking Student <br>Melbourne Institute of Technology <br> mit213859@stud.mit.edu.au</td>
+        
+            <td><img src="https://pbs.twimg.com/profile_images/1335756715359268865/cRdWnW7V_400x400.jpg" alt="VedantProfile" height="150" width="150"></td>
+            <td><strong>Vedant Parnerkar</strong>  <br>Master of Networking Student <br>Melbourne Institute of Technology <br>mit210218@stud.mit.edu.au</td>
+        </tr>
+        <tr>
+            <td><img src="data:image/png;base64,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" alt="PriyaProfile" height="150" width="150"></td>
+            <td><strong>Priya</strong>  <br> Master of Networking Student <br>Melbourne Institute of Technology <br> mit192458@stud.mit.edu.au</td>
+        </tr>
+    </table>
+    </div>
+    
+    <div id="container" style="width: 100%; height: 100%"></div>
+    <script>
+
+    </script>
+    
+    
+   </body>
+
+</html>
+
